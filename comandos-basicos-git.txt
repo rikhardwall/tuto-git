@@ -1,0 +1,28 @@
+//Comandos de Git en GitBash//
+
+$ git init
+//Sirve para inicializar un repositorio vacio 
+//Se crea un directorio oculto o "detalle de implementación" llamado .git/ dentro del directorio en el que estemos
+
+//Flujo de trabajo en Git
+PC / Stage / Commit / Server
+   A       B        C
+
+A)
+$ git add nombre-archivo
+//Tambien se puede usar como argumento *.extensión del archivo para que se agreguen todos los archivos de una misma extensión//
+//Si se usa el argunmento de un punto . se agregan todos los archivos que esten dentro del directorio *NO SE ACONSEJA USAR ESE METODO*//
+
+B)
+$ git commit nombre-archivo
+
+C)
+$ git push nombre-archivo
+
+
+$ git status
+//Muestra el estado del repositorio
+//Los archivos que se muestren en color verde, son archivos que ya se encuentran en Stage//
+//Si el archivo se muestra en color rojo significa que aún no se encuentra en Stage//
+
+$ 

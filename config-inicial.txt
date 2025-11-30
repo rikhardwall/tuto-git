@@ -1,0 +1,24 @@
+//Configuración de inicial de Git en GitBash//
+
+$ git --versión 
+//Nos muestra la versión que tenemos instalada
+
+$ git config --global user.name "Nuestro nombre"
+$ git config --global user.email Nuestro email
+
+//--global sirve para indicar que la configuración se realizará de forma global y no por proyecto//
+//en el correo no es necesario las comillas//
+
+//Para configurar VSCode como nuestro editor principal utilizamos://
+$ git config --global core.editor "code --wait"
+
+//la opción de --wait es para que la terminal se quede esperando hasta que cerremos el editor//
+
+//Para ver nuestro archivo de configuración global en el editor escribimos lo siguiente://
+$ git config --global -e
+
+//Para configurar el salto de linea//
+$ git config --global core.autocrlf true/input
+
+//Para linux o Mac se ocupa "input"
+//Para Windows se ocupa "true"
