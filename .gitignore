@@ -1,3 +1,2 @@
 # En este archivo se agregan los nombres de archivos o carpetas que queremos que Git ignore y no se suban a un repositorio.
 .env
-node_modules/
